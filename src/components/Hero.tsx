@@ -15,7 +15,7 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-gray-900 via-purple-900/20 to-gray-900">
       <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1229042/pexels-photo-1229042.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-5"></div>
       
-      <div ref={ref} className="container mx-auto px-6 text-center relative z-10">
+      <div ref={ref} className="container mx-auto px-6 text-center relative z-10 mt-14">
         <div className={`transition-all duration-1000 transform ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
         }`}>
